@@ -1,0 +1,28 @@
+# Docker
+# Build a Docker image
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
+
+trigger:
+- master
+
+resources:
+- repo: self
+
+variables:
+ tag: '$(Buid.BuildId)'
+
+stages:
+  - stage: Build
+    displayName: Build the docker
+    jobs:
+      - job: Build
+        displayName: Build job
+        pool: 
+         vmImage: ubuntu-latest
+        steps:
+        - task: Docker@2  
+          inputs:
+            command: 'buildAndPush'
+            Dockerfile: '**/Dockerfile'
+         
+  

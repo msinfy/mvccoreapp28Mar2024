@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oseZiUK8HbeMNTuQHtfU+pnFHfi5OMjCspeAjD6HA08livzzQuvZPU+VL7FGJ5oLITdpr8ig/H0QtOSpJeILsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\mvc_core_app\\mvc_core_app\\mvc_core_app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}
